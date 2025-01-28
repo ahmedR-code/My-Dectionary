@@ -195,4 +195,60 @@ border-radius: 5px;
   }
   
   
+ 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px; /* تقليل حجم الخط للعناوين */
+  }
+
+  .speak-btn {
+    font-size: 16px; /* تقليل حجم النص داخل زر النطق */
+    padding: 0.5rem; /* إضافة حشوة بسيطة */
+  }
+
+  .meaning-btn {
+    font-size: 16px; /* تقليل حجم النص لزر المعنى */
+  }
+
+  .container {
+    padding: 0 10px; /* تقليل الحشوة الجانبية */
+  }
+
+  table {
+    width: 100%; /* جعل الجدول يأخذ عرض 100% */
+  }
+
+  th, td {
+    padding: 0.5rem; /* تقليل الحشوة داخل الخلايا */
+  }
+ 
+  .nav a {
+    font-size: 15px; 
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+  }
+  .nav  {
+  gap: 1px;
+  display: flex;
+  justify-content: space-between;
   
+  }
+  .nav li {
+    
+  padding: 0;
+  margin: 0;
+
+  }
+  #view-words-link {
+   
+  
+    font-size: 15px; 
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    
+  }
+  .header  {
+    flex-direction: column; /* تغيير ترتيب العناصر لتحسين التنسيق */
+}}
